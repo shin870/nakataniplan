@@ -1,3 +1,12 @@
+---
+// Props（外部からの設定）として title を受け取る宣言
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
